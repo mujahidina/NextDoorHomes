@@ -1,0 +1,54 @@
+.hero {
+    background-image: url('/public/boshay.png');
+    background-size: cover; /* Ensures the whole image fits in */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.big{
+  background-image: url('/public/sky.jpg');
+  background-size: cover; /* Ensures the whole image fits in */
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+  /* Hero.css */
+.property-result {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.property-result img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+.property-result div {
+  padding-left: 20px;
+}
+
+.property-result h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.property-result p {
+  margin: 5px 0;
+  color: #555;
+}
+
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
