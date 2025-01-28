@@ -8,7 +8,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="h-100vh w-full my-20 flex justify-center items-center py-16">
+    <div className="h-100vh w-full my-20 flex justify-center items-center py-16" id="faqs">
       <div className="w-4/5 lg:w-3/4 xl:w-2/3 flex flex-row justify-between gap-6">
 
         {/* Left Column with Title */}

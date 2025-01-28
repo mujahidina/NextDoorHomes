@@ -193,7 +193,7 @@ function Property() {
   };
 
   return (
-    <div className="krona-one-regular bg-white h-[100vh] flex flex-col justify-start items-center mt-28">
+    <div className="krona-one-regular bg-white h-[100vh] flex flex-col justify-start items-center mt-28" id="properties">
       <div className="flex flex-row w-full justify-center items-center gap-4 p-4 mt-12">
         <input
           placeholder="Search for properties. eg. mainhouse, villas, apartments..."

@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonials(){
     return(
-       <div className="bg-white krona-one-regular bg-grey-300 h-[80vh] flex flex-col gap-8 justify-center items-center my-10">
+       <div className="bg-white krona-one-regular bg-grey-300 h-[80vh] flex flex-col gap-8 justify-center items-center my-10" id="testimonials">
 
        <h1 className="mb-10 text-2xl">Customer says</h1>
 
